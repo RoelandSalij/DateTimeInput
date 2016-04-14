@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="DateTimeInput.widget.DateTimeInput" needsEntityContext="true" offlineCapable="true" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>DateTimeInput</name>
+    <description>The description of this widget.</description>
+
+    <icon />
+
+    <properties>
+        <property key="targetAttribute" type="attribute">
+			<caption>Attribute</caption>
+			<category>Appearance</category>
+			<description></description>
+			<attributeTypes>
+				<attributeType name="DateTime" />
+			</attributeTypes>
+		</property>
+         <property key="inputformat" type="enumeration" required="true" defaultValue="date">
+			<caption>Format</caption>
+			<category>General</category>
+			<description>Render a Date or Time input element, or both.</description>
+            <enumerationValues>
+				<enumerationValue key="date">Date</enumerationValue>
+				<enumerationValue key="time">Time</enumerationValue>
+				<enumerationValue key="datetime">Date and time</enumerationValue>
+			</enumerationValues>
+		</property>
+    </properties>
+</widget>
+

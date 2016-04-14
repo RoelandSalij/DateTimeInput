@@ -1,0 +1,8 @@
+.datetimeInput .infoTextNode {
+    padding: 0.8em 1em;
+    margin-top: 10px;
+}
+
+.datetimeInput .input-group {
+    display: inline-block;
+}

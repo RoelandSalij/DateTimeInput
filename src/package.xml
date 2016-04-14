@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<package xmlns="http://www.mendix.com/package/1.0/">
+    <clientModule name="DateTimeInput" version="1.0.0" xmlns="http://www.mendix.com/clientModule/1.0/">
+        <widgetFiles>
+            <widgetFile path="DateTimeInput/DateTimeInput.xml" />
+        </widgetFiles>
+        <files>
+            <file path="DateTimeInput/widget/" />
+        </files>
+    </clientModule>
+</package>
